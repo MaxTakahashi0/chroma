@@ -77,3 +77,46 @@ p {
     background-color: rgb(0, 0, 0);
     background-blend-mode: overlay;
 }
+
+.circle-section {
+    text-align: center;
+
+}
+
+.circle-item {
+    padding: 1rem 0 1rem 0;
+    display: inline-block;
+    padding: 2rem;
+    margin: 0, 0, 0, 0;
+}
+
+.circle-item h3,
+p {
+    color: rgb(222, 222, 222);
+}
+
+.circle-item h3 {
+    font-size: 2rem;
+}
+
+.circle-image-container {
+    width: 200px;
+    height: 200px;
+    border-radius: 120px;
+    margin: 20px auto;
+    transition: all 0.5s;
+    overflow: hidden;
+}
+
+.circle-image-container:hover {
+    background-size: 110%;
+    scale: 110%;
+    background-color: rgb(0, 0, 0);
+    background-blend-mode: overlay;
+}
+
+.circle-image-container img {
+    transition: all 0.5s;
+}
+
+
